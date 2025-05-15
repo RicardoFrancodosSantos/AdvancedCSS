@@ -1,11 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<!-- TODO
-1. Make both paragraph elements wrap around the image.
-2. Use Float to move the cat div to the left and the dog div to the right.
-3. Use clear to make the footer go below both the cat and dog div. -->
-
 <head>
   <meta charset="UTF-8">
   <title>CSS Float</title>
@@ -13,7 +8,6 @@
     div {
       display: inline-block;
       width: 40%;
-      
     }
 
     p {
@@ -21,22 +15,22 @@
     }
 
     .cat {
-      background-color: aquamarine;
       float: left;
+      background-color: aquamarine;
     }
 
     .dog {
-      background-color: coral;
       float: right;
-      
+      background-color: coral;
     }
 
-   img {
-    float: left;
-   }
+    img {
+      float: left;
+    }
 
     footer {
       clear: both;
+      text-align: center;
       background-color: blueviolet;
     }
   </style>
@@ -46,14 +40,15 @@
   <div class="cat">
     <h2>CatCSS</h2>
 
-    <img src="cat.jpeg" alt = "cat in a box" />
-    <p class="first-paragraph" >Nap all day cat dog hate mouse eat string barf pillow no baths hate everything but kitty
+    <img src="cat.jpeg" alt="cat in a box" />
+    <p class="first-paragraph">Nap all day cat dog hate mouse eat string barf pillow no baths hate everything but kitty
       poochy. Sleep on keyboard
       toy
       mouse squeak roll over. Mesmerizing birds. Poop on grasses licks paws destroy couch intently sniff hand. The dog
       smells
-      bad gnaw.</p>
+      bad gnaw the corn cob.</p>
   </div>
+
   <div class="dog">
     <h2>DogCSS</h2>
     <img src="dog.jpeg" alt="dogs in a box" />
@@ -65,29 +60,6 @@
   </div>
 
   <footer>Copyright. This is the footer</footer>
-</body>
-
-</html>
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Responsiveness</title>
-  <style>
-    a {
-      display: block;
-    }
-  </style>
-</head>
-
-<body>
-  <h1>Responsiveness Methods</h1>
-  <a href="./media-query.html">1. Media Queries</a>
-  <a href="./grid.html">2. CSS Grid</a>
-  <a href="./flexbox.html">3. CSS Flexbox</a>
-  <a href="./bootstrap.html">4. Bootstrap Framework</a>
 </body>
 
 </html>
