@@ -12,10 +12,22 @@ TODO: Change the background color for each device
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
-  <title>Media Query</title>
+  <title>Document</title>
   <style>
     body {
       background-color: aquamarine;
+    }
+
+    @media (min-width: 319px) and (max-width: 480px) {
+      body {
+        background-color: lightsalmon;
+      }
+
+      @media (min-width: 481px) and (max-width: 1200px) {
+      body {
+        background-color: powderblue;
+      }
+    }
     }
   </style>
 </head>
